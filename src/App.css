@@ -1,38 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet");
+
 .App {
-  text-align: center;
+	font-family: 'Fascinate Inline', cursive;
+	text-align: center;
+	background-color: #282c34;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App-body {
+	min-height: 75vh;
+	display: flex;
+	flex-direction: right;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+	font-size: calc(10px +2vmin);
+	color: white;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App-footer {
+	min-height: 25vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 20px;
+	font-size: calc(5px + 2vmin);
+	color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.contact {
+	flex-direction: right;
+	justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+hr {
+	max-width: 40%;
 }
