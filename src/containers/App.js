@@ -26,7 +26,7 @@ class App extends React.Component {
 						{
 							contents.map((content, i) => {
 								return (
-									<div className='tc bg-navy pa2 dib size br4 ma3 mw6 fade-in shadow-5'>
+									<div className='tc bg-navy pa2 dib br4 ma3 mw6 fade-in shadow-5'>
 										<img onClick={() => window.open(contents[i].link, '_blank')}src={contents[i].image} alt='' className='grow pa2 h5 w5'/>
 										<div>
 											<h1 className='b white'>{contents[i].name}</h1>
