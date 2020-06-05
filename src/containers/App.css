@@ -2,12 +2,13 @@
 
 .App {
 	font-family: 'Fascinate Inline', cursive;
+	font-family: Courier, monospace;
 	text-align: center;
-	background-color: #282c34;
+	background-image: linear-gradient(#882D60, #F4862A);
 }
 
 .App-body {
-	min-height: 75vh;
+	min-height: 100vh;
 	display: flex;
 	flex-direction: right;
 	justify-content: center;
@@ -17,20 +18,8 @@
 	color: white;
 }
 
-.App-footer {
-	min-height: 25vh;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	flex-wrap: wrap;
-	padding: 20px;
-	font-size: calc(5px + 2vmin);
-	color: white;
-}
-
-.contact {
-	flex-direction: right;
-	justify-content: center;
+.size {
+	max-height: 30rem;
 }
 
 hr {
