@@ -30,7 +30,7 @@ class App extends React.Component {
 										<img onClick={() => window.open(contents[i].link, '_blank')}src={contents[i].image} alt='' className='grow pa2 h5 w5'/>
 										<div>
 											<h1 className='b white'>{contents[i].name}</h1>
-											<p className='b white'>{contents[i].about}</p>
+											<p className='b white fontsize'>{contents[i].about}</p>
 										</div>
 									</div>
 								);
