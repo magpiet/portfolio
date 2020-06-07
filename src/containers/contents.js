@@ -19,6 +19,6 @@ export const contents = [
 	image: nazar,
 	name: 'Good Trip',
 	about: 'This is a project I made to help people who are stressed out. it involves some videos to watch, sounds to listen to, and some activities to help destress!',
-	link: 'https://magpiet.github.io/goodtrip/'
+	link: 'https://good-trip.herokuapp.com/'
 },
 ]

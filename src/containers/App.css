@@ -21,3 +21,7 @@
 hr {
 	max-width: 40%;
 }
+
+.size {
+	max-height: 35rem;
+}
